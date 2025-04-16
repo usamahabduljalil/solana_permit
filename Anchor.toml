@@ -1,0 +1,9 @@
+[programs.localnet]
+solana_permit2 = "YourProgramIDHere"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha app/signer/test.js"
